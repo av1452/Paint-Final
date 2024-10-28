@@ -3,3 +3,5 @@ JavaDraw is an interactive drawing level application developed using the tools o
 
 
 **Presentation Link: https://www.canva.com/design/DAGU0Gj5JcQ/HaBsbCOWDXHgB2ZrTWch1Q/edit?utm_content=DAGU0Gj5JcQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton**
+
+[Paint_ReleaseNotes-7.txt](https://github.com/user-attachments/files/17536358/Paint_ReleaseNotes-7.txt)
