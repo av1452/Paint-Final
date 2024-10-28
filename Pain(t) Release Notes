@@ -1,1 +1,173 @@
+RELEASE NOTES 
+
+1.2.0
+-----------------------------
+Aidan's Pain(t) Version 1.2.0 -  10/25/2024
+Set features:
+Have icons for drawing tools
+have tool tips for your buttons that appear on hover.
+Control keyboard keys (cntrl s for save, cntrl z for undo, cntrl y for redo.)
+Shapes  with variable number of points
+Dashed Line
+Open, Save, Exit functionality
+Clear Canvas Button
+Resizable Canvas based on image uploaded
+Undo/Redo functionality
+Eraser Functionality
+Resizable width for shapes and tools
+Help menu and about menu
+Logging with width and color chosen
+Known issues:
+  None
+Links:
+  * Oracle JavaFX
+  * https://github.com/av1452/Paint-Final
+
+
+1.1.5
+-----------------------------
+Aidan's Pain(t) Version 1.1.5 -  10/04/2024
+New features:
+allow you to rotate (90/180/270) an image, as well as mirror [as in, do a horizontal and vertical flip (so, left becomes right / top becomes bottom).]
+allow the rotate of either a selection (a chunk) or for your whole canvas.  [that is a both of those]
+have icons for drawing tools; preferred is all buttons, etc.  (you may retain existing text labels if you want or add if you have icons already).
+notifications (as in in the corner of window, from the OS); for autosave - trigger or on off.
+have tool tips for your buttons that appear on hover.
+control keys (cntrl s for save, etc.)
+star with variable number of points (4 aka diamond ... on up)
+Also: Threading is now expected.  Specifically, you need to have threaded logging.  For logging, you're "tracking" what the user does:
+Known issues:
+  * Many of the features are implemented, but unable to get rotate working fully, notifications are not functioning properly, and logging was not accessible in the current form.
+Expected for final design:
+Full Functionality and user experience better, getting all of the features from past sprints implemented, as well as splitting up the code to fix it more efficiently
+Links:
+  * Oracle JavaFX
+
+1.1.4
+-----------------------------
+Aidan's Pain(t) Version 1.1.4 -  09/29/2024
+New features:
+3 unit tests.
+Timer that allows for autosave
+Optional countdown and reset the timer on a user's save.
+Webserver functionality
+JavaDoc commenting.
+Save in an alternative file format 
+Warning feature for data loss
+Known issues:
+  * Clear canvas works, but many of the features are implemented, but don’t fully function properly
+Expected next sprint:
+Full Functionality and user experience better
+Links:
+  * Oracle JavaFX
+
+1.1.3
+-----------------------------
+Aidan's Pain(t) Version 1.1.3 -  09/20/2024
+New features:
+* Undo and Redo
+* provide a blank starting image and a clear canvas (with "are you sure" check) tool
+* additional shape
+* regular side polygon with any #of sides
+* select and copy/paste a piece of the image  
+* select and move a piece of the image
+* allow the addition of text from user-typed input to your image
+* tabs
+
+Known issues:
+  * Tabs work somewhat with one canvas, but don’t allow for another. The move tool is setup but doesn’t allow for selection. The text tool prompts the user for an input but doesn’t display anything currently. Clear canvas doesn’t work fully anymore.
+Expected next sprint:
+The software shall have at least 3 unit tests.
+The software shall have a timer that allows for autosave.  (threading not required but probably a good idea)
+The timer's countdown shall be optionally (as in some way to choose on/off) visible to the user.  Bonus/optional: Reset the timer on a user's save.
+The software shall incorporate a webserver to presents one or more of the images (in tabs), as selected by the user.  If no images are selected, an appropriate message will be displayed or the functionality will be offline.
+The code shall have some JavaDoc commenting.
+The software shall have the ability to save in an alternative file format than the one that was the original for the image.
+The software shall have a warning image features/data loss can happen
+Tip:think about how you prove this! A demonstration/test plan/note on how should be included in your deliverable.
+Links:
+  * Oracle JavaFX
+
+1.1.2
+-----------------------------
+Aidan's Pain(t) Version 1.1.2 -  09/16/2024
+New features:
+  * drawing tools and shape tools
+	- pencil
+	- line
+	- eraser
+	- circle
+	- square
+  * undo/redo
+  * keyboard shortcuts
+  * pun
+  * tabs
+  * color grabber
+  * additional star shape tool
+
+Known issues:
+  * Layout is a bit iffy and needs to be cleaned up to show full canvas size, tried changing it, but     disabled functionality
+Expected next sprint:
+Undo and Redo - this MUST use at least (more is ok) one "stack" (this is an abstract data structure in Java)
+provide a blank starting image and a clear canvas (with "are you sure" check) tool
+draw yet another additional shape of your choice
+be able to draw a regular side polygon with any #of sides
+select and copy/paste a piece of the image  - "live draw" is required for this and other edits/draws
+select and move a piece of the image
+allow the addition of text from user-typed input to your image.
+tabs are required.
+git use is required. (github is fine)
+Links:
+  * Oracle JavaFX
+1.1.1
+-----------------------------
+Aidan's Pain(t) Version 1.1.1 -  09/06/2024
+New features:
+  * functionality of opening an image file 
+  * using the save and save as functions
+  * help menu and about menu
+  * resizing canvas and color chooser
+
+Known issues:
+  * Resize is iffy in the way it erases the canvas when image is moved
+Expected next sprint:
+have width controls  (width controls as in control width of a regular line or the line-edges of shapes)
+draw square, circle, rectangle, ellipse, triangle
+keyboard shortcuts (control S for save, etc)
+inform user as to pixel size of width
+text label for colors (hex/rgb/English name)
+color grabber (has to modify shapes)
+resize canvas (for larger drawing)
+ pencil (curved) or straight line (whichever you didn't do last time)
+dashed outline of shape / line
+smart/aware save ("you're about to close without saving...")
+tabs (optional possible bonus, will be required week 4)
+include some sort of pun on Java.
+have an eraser tool
+draw an additional shape of your choice.
+Links:
+  * Oracle JavaFX
+
+1.1.0
+-----------------------------
+Aidan's Pain(t) Version 1.1.0 -  08/30/2024
+New features:
+  * functionality of opening an image file 
+  * using the save and save as functions
+Known issues:
+  * N/A
+Expected next sprint:
+  * JPEG, BMP, PNG file support (Save As, Open)
+  * Draw a line
+  * Save & Save As on edited image
+  * Resize/scroll/otherwise adjust/accommodate a large image
+  * Have a color choose(doesn’t have to work, does need dialogue, etc.)
+  * Have a help menu, w/’about’ option & dialogue
+  * Choose line width
+Links:
+  * Oracle JavaFX
+
+
+
+
 
